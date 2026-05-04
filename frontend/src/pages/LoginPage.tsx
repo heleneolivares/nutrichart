@@ -81,11 +81,7 @@ export default function LoginPage() {
           </Link>
         </p>
 
-        <div className="mt-6 p-4 bg-gray-50 rounded-lg text-xs text-gray-500">
-          <p className="font-medium mb-1">Credenciales de prueba:</p>
-          <p>📧 nutricionista@nutrichart.com / nutri123</p>
-          <p>📧 admin@nutrichart.com / admin123</p>
-        </div>
+
       </div>
     </div>
   );
