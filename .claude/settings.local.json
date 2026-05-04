@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx tsc *)",
+      "Bash(npm run *)",
+      "Bash(echo \"Backend PID: $!\")",
+      "Bash(curl -s -X POST http://localhost:3001/api/auth/login -H 'Content-Type: application/json' -d '{\"email\":\"nutricionista@nutrichart.com\",\"password\":\"nutri123\"}')",
+      "Bash(python3 -m json.tool)",
+      "Bash(curl -s -X POST http://localhost:3001/api/auth/login -H \"Content-Type: application/json\" -d '{\"email\":\"nutricionista@nutrichart.com\",\"password\":\"nutri123\"}')",
+      "Bash(echo \"Frontend PID: $!\")",
+      "Bash(curl -s http://localhost:5173)",
+      "Bash(lsof -ti:3001,5173,5174)",
+      "Bash(xargs kill *)",
+      "Bash(npx prisma *)",
+      "Bash(npm install *)",
+      "Read(//tmp/**)"
+    ]
+  }
+}
